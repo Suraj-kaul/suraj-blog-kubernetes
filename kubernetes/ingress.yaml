@@ -2,7 +2,11 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: minimal-ingress
+  namespace: ingress-nginx 
+ 
+
 spec:
+  ingressClassName: nginx
   rules:
   - host: suraj-kaul.com
     http: 
