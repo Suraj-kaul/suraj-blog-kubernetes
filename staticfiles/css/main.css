@@ -1,0 +1,65 @@
+body{
+	background-color:#F8F8F8!important;
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:175px;
+	height: 175px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:40px;
+	height: 40px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: white;
+          color: black;
+          border:2px groove black;
+
+          }
+.button1:hover{background-color:black;
+              color: red;
+
+}
+.button2
+{background-color:black;
+margin:10px 5px;
+padding:5px 90px;
+font-size:30px;}
+
+.button3
+{background-color:black;
+margin:10px 5px;
+padding:5px 90px;
+font-size:30px;
+}
+

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-deployment
+  labels:
+    app: django-blog
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: django-blog
+  template:
+    metadata:
+      labels:
+        app: django-blog
+    spec:
+      containers:
+      - name: suraj-portfolio
+        image: 9953484872/suraj-blog
+        ports:
+        - containerPort: 8000
